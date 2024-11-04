@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is the backend code.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm jest",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "simanchala sethi",
+  "license": "MIT",
+  "dependencies": {
+    "backend": "file:",
+    "express": "^4.21.1"
+  }
+}
